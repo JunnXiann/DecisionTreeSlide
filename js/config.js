@@ -235,7 +235,7 @@ export default {
 	transitionSpeed: 'default', // default/fast/slow
 
 	// Transition style for full page slide backgrounds
-	backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+	backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
 
 	// Parallax background image
 	parallaxBackgroundImage: '', // CSS syntax, e.g. "a.jpg"

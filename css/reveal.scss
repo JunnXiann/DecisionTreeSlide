@@ -10,6 +10,11 @@
 
 @import 'layout';
 
+@font-face {
+	font-family: myFirstFont;
+	src: url(sansation_light.woff);
+  }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -1394,6 +1399,11 @@ $controlsArrowAngleActive: 36deg;
 	font-family: sans-serif;
 }
 
+.reveal.rtl .slides p {
+	direction: rtl;
+	position: absolute;
+}
+
 .reveal.rtl pre,
 .reveal.rtl code {
 	direction: ltr;
@@ -1826,4 +1836,3 @@ $notesWidthPercent: 25%;
 
 @import 'print/pdf.scss';
 @import 'print/paper.scss';
-
